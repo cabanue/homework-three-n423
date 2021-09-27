@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+label,
+input {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav {
+  background-color: #333;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav p {
+  color: white;
+  font-size: 40px;
+}
+
+footer {
+  height: 70px;
+  background-color: #333;
+}
+
+.inputs {
+  margin: 20px auto;
+  padding-top: 10px;
+  width: 40%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  border: 2px solid #333;
+}
+.inputs .form {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.inputs .form label {
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.inputs .form input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  padding: 15px 10px;
+  border: 1.5px solid black;
+}
+.inputs .form textarea {
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 15px;
+  resize: none;
+  border: 1.5px solid black;
+}
+.inputs .form .but {
+  width: 50%;
+  height: 30px;
+  background-color: #333;
+  color: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+.inputs .form .but:nth-child(even) {
+  margin-bottom: 20px;
+}
+
+.students-div {
+  margin: 20px auto;
+  width: 50%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  border: 2px solid #333;
+}
+.students-div .students {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.student {
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  width: 40%;
+  margin-bottom: 30px;
+}
+.student img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.student .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.student .content .left {
+  width: 40%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.student .content .left p {
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+.student .content .left p:nth-child(odd) {
+  margin-bottom: 5px;
+}
+.student .content .right {
+  width: 40%;
+}
+.student .content .right p {
+  text-align: center;
+  word-wrap: break-word;
+}
